@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding: 150px 25px;
+    background: url('../images/freepik_full-shot-man-taking-notes-outdoors_23-2149659101.jpeg') center/cover no-repeat fixed;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+    z-index: 2;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+nav {
+    flex: 1;
+}
+
+#content {
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#content > h2 {
+    padding: 0px 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.article-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.article-container img {
+    max-width: 300px;
+    max-height: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.article-container article {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.biodata {
+    text-align: center;
+}
+
+.biodata img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ddd;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.social-media a,
+#kontak > div > p:nth-child(5) > a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-media a:hover,
+#kontak > div > p:nth-child(5) > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
