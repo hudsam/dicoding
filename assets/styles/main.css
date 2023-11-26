@@ -3,7 +3,7 @@
         flex-direction: column;
     }
 
-    #content, aside {
+    #konten, aside {
         flex: 1;
         margin-bottom: 20px;
     }
@@ -18,7 +18,7 @@
         flex: none;
     }
 
-    #content, aside {
+    #konten, aside {
         flex: none;
         width: 100%;
         margin-bottom: 20px;
@@ -107,7 +107,7 @@ nav {
     flex: 1;
 }
 
-#content {
+#konten {
     flex: 2;
     padding: 20px;
     box-sizing: border-box;
@@ -116,7 +116,7 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#content > h2 {
+#konten > h2 {
     padding: 0px 25px;
     margin-bottom: 30px;
     text-transform: uppercase;
